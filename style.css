@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {border-radius: 10px;
+     background-color: yellow;
+     display: flex;
+     justify-content: space-between;
+     position: fixed;
+
+}
+nav a {padding:10px;
+      text-decoration: none;
+    
+}
+nav a:hover {
+     background-color: rgb(255, 244, 170);
+     border-radius: 4px;
+     border: 1px solid black;
+     transition: 1s;
+     color: black;
+ 
+}
+img {
+   border: 2px solid black;
+   border-radius: 10px;
+   float: left;
+   
+}
+.people{display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+      
+
+}
+img:hover{height:150px ; 
+          width: 130px;
+          transition: 1s;
+          border:2px dashed orange;
+          }
